@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Build a Semantic Book Recommender with LLMs – Full Course
 
 This repo contains all of the code to complete the freeCodeCamp course, "Build a Semantic Book Recommender with LLMs – Full Course". There are five components to this tutorial:
@@ -27,3 +28,6 @@ In order to create your vector database, you'll need to create a .env file in yo
 
 The data for this project can be downloaded from Kaggle. Instructions on how to do this are also in the repo.
 
+=======
+# llm-semantic-book-recommender
+>>>>>>> 662dc4f0b00a3b3c1e37f96bc9b5f1db554441d0

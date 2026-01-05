@@ -104,4 +104,7 @@ with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
 
 
 if __name__ == "__main__":
-    dashboard.launch()
+    import os
+    # Render provides a PORT environment variable. 7860 is the Gradio default.
+    port = int(os.environ.get("PORT", 7860))
+    dashboard.launch(server_name="0.0.0.0", server_port=port)
